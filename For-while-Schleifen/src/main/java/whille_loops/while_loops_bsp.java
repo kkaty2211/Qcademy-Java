@@ -61,6 +61,18 @@ public class while_loops_bsp {
     }
 
 
+    //gibt dn größten gemeinsamen Teiler zweier Zahlen wieder anhand des Euklidischen Prinzips
+    public static int ggt(int n, int m) {
+        int reminder;
+        while (n % m != 0) {
+            reminder = m;
+            m = n % m;
+            n = reminder;
+        }
+        return m;
+    }
+
+
 
 
     public static void main(String[] args) {
@@ -72,6 +84,9 @@ public class while_loops_bsp {
         int b = 47;
         System.out.println("Die Primzahlen bis " + b + " sind folgende: ");
         primeNumbers(b);
+        int c = 356;
+        int d = 238;
+        System.out.println("Der grösste gemeinsme Teiler der Zahlen " + c + " und " + d + " ist: " + ggt(c,d));
 
     }
 }

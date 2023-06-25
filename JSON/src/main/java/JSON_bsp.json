@@ -1,0 +1,25 @@
+{
+  "Vorname": "Katharina",
+  "Nachname": "Kerschbaumer",
+  "Wohnort": {
+    "Strasse" : "Hausestrasse",
+    "PLZ": 83566,
+    "Ort": "München"
+  },
+  "Lebenslauf": [
+    {
+    "Beruf": "Tester",
+    "Zaitraum" : "01.12.2020 bis heute",
+    "Tätigekeiten" : "Bugs aufspüren"
+    },
+    {
+    "Beruf": "Koch",
+    "Zeitraum" : "01.01.2018 bis 01.12.2020",
+    "Tätigekeiten" : "vegane Gerichte kochen"
+    },
+    {
+      "Sprachen" : ["Deutsch", "Italienisch", "Englisch"]
+    }
+
+  ]
+}
