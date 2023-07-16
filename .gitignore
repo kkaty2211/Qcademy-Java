@@ -1,0 +1,14 @@
+# Wir folgende Dateien für die GIT Versionierung ignorieren:
+
+# Ignoriere eine einzelne Datei z.B. file.txt
+
+# Ignoriere ein Verzeichnis und dessen Inhalt zB. directory/
+
+# Ignoriere Dateien mit einer bestimmten Erweiterung z.B. *.log
+
+# Ignoriere Dateien in einem Verzeichnis mit einer bestimmten Erweiterung
+logs/*.log
+
+# Ignoriere alle Dateien und Verzeichnisse im aktuellen Verzeichnis mit dem Namen "cache" z.b. /cache/
+
+test.txt
